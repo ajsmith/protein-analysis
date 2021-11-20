@@ -62,8 +62,8 @@ exclude_patterns = []
 html_theme = 'nature'
 html_sidebars = {
     '**': [
-        'localtoc.html',
         'globaltoc.html',
+        # 'localtoc.html',
         'relations.html',
         'sourcelink.html',
     ],

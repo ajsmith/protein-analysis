@@ -13,6 +13,13 @@ Report 2: Protein Modeling
 | Fall 2021
 
 
+..  toctree::
+    :maxdepth: 1
+    :caption: Contents:
+
+    sequence
+
+
 Source Code
 ===========
 
@@ -20,8 +27,9 @@ All source code and documentation can be found here:
 https://github.com/ajsmith/protein-analysis
 
 
-
 References
 ==========
 
-1. Test
+ 1. UniProt <https://www.uniprot.org/>
+
+ 2. RCSB-PDB <https://www.rcsb.org/>
