@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Protein Structure Analysis: Report 2'
+project = 'Protein Structure Analysis: 3D Modeling'
 copyright = '2021, Alexander Smith'
 author = 'Alexander Smith'
 

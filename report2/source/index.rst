@@ -4,8 +4,8 @@
    contain the root `toctree` directive.
 
 
-Report 2: Protein Modeling
-==========================
+Modeling 3D Structures of Proteins
+==================================
 
 | Alexander Smith
 | School of Systems Biology
@@ -15,7 +15,7 @@ Report 2: Protein Modeling
 
 ..  toctree::
     :maxdepth: 1
-    :caption: Contents:
+    :numbered:
 
     sequence
 
