@@ -3,13 +3,19 @@
 Research and studies into protein structure, function, and
 evolutionary relationships.
 
+This project contains a study on protein structure modeling, contained
+within the "report2" directory. Steps for generating the report in
+HTML format are listed below.
 
-# Requirements for generating reports
+[Python Sphinx](https://www.sphinx-doc.org/) is used to generate the
+report.
+
+
+# Requirements
 
 - Python 3
 - Linux (might work elsewhere too)
 - rsync (for site deployment)
-- LaTeX (optional if building PDFs is needed)
 
 
 # Setup and usage
@@ -24,8 +30,8 @@ $ docker run -it --rm -v "$(pwd):/protein-analysis" ajsmith/binftools bash
 [me@container ~]$ cd /protein-analysis
 ```
 
-To install (this will create and install everything into a Python
-virtualenv):
+The "install.sh" script will create a Python virtualenv and install
+dependencies contained in the "requirements.txt" file. Run it as so:
 
 ```shell
 $ ./install.sh
@@ -35,8 +41,8 @@ To generate Report2 in HTML format:
 
 ```shell
 $ source venv/bin/activate
-$ cd report2
-$ make html
+(venv) $ cd report2
+(venv) $ make html
 ```
 
 To deploy Report2 on a web server:
