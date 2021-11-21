@@ -55,7 +55,7 @@ function _setFileState() {
   set percentVdwAtom 23;
   set smallMoleculeMaxAtoms 40000;
   set smartAromatic true;
-  load /*file*/"model_02.pdb";
+  load /*file*/"phyre2.pdb";
 
 }
 
@@ -223,30 +223,98 @@ function _setParameterState() {
 
 function _setModelState() {
 
-  structure none ({0:753})    	# model=1.1;
+  structure none ({0:812})    	# model=1.1;
   structure HELIXALPHA ({24:126})    	# model=1.1 & (4 - 15);
   structure HELIXALPHA ({177:295})    	# model=1.1 & (22 - 34);
   structure HELIXPI ({406:448})    	# model=1.1 & (50 - 54);
   structure HELIXALPHA ({547:637})    	# model=1.1 & (68 - 76);
 
   structure TURN ({127:143})    	# model=1.1 & (16 - 17);
+  structure TURN ({341:357})    	# model=1.1 & (41 - 42);
   structure TURN ({391:405})    	# model=1.1 & (48 - 49);
   structure TURN ({478:490})    	# model=1.1 & (59 - 60);
   structure TURN ({638:650})    	# model=1.1 & (77 - 78);
+  structure TURN ({746:766})    	# model=1.1 & (90 - 92);
+  structure TURN ({774:789})    	# model=1.1 & (94 - 95);
 
-  select ({0:753});
-  color atoms opaque structure;
+  select ({0:23});
+  color atoms opaque [x0000ff];
+  select ({358:378});
+  color atoms opaque [x00ff20];
+  select ({144:170});
+  color atoms opaque [x00c0ff];
+  select ({611:628});
+  color atoms opaque [xfff000];
+  select ({215:237});
+  color atoms opaque [x00ffe0];
+  select ({547:579});
+  color atoms opaque [xf0f000];
+  select ({722:745});
+  color atoms opaque [xff6000];
+  select ({395:414});
+  color atoms opaque [x20ff00];
+  select ({415:442});
+  color atoms opaque [x40ff00];
+  select ({443:461});
+  color atoms opaque [x60ff00];
+  select ({379:394});
+  color atoms opaque [x00ff00];
+  select ({580:610});
+  color atoms opaque [xffff00];
+  select ({462:486});
+  color atoms opaque [x80ff00];
+  select ({767:789});
+  color atoms opaque [xff2000];
+  select ({296:319});
+  color atoms opaque [x00ff80];
+  select ({238:262});
+  color atoms opaque [x00ffc0];
+  select ({70:98});
+  color atoms opaque [x0060ff];
+  select ({629:650});
+  color atoms opaque [xffe000];
+  select ({487:499});
+  color atoms opaque [xa0ff00];
+  select ({500:517});
+  color atoms opaque [xc0ff00];
+  select ({195:214});
+  color atoms opaque [x00ffff];
+  select ({518:546});
+  color atoms opaque [xe0ff00];
+  select ({24:43});
+  color atoms opaque [x0020ff];
+  select ({674:703});
+  color atoms opaque [xffa000];
+  select ({171:194});
+  color atoms opaque [x00e0ff];
+  select ({320:336});
+  color atoms opaque [x00ff60];
+  select ({263:295});
+  color atoms opaque [x00ffa0];
+  select ({117:143});
+  color atoms opaque [x00a0ff];
+  select ({704:721});
+  color atoms opaque [xff8000];
+  select ({746:766});
+  color atoms opaque [xff4000];
+  select ({337:357});
+  color atoms opaque [x00ff40];
+  select ({99:116});
+  color atoms opaque [x0080ff];
+  select ({790:812});
+  color atoms opaque [xff0000];
+  select ({44:69});
+  color atoms opaque [x0040ff];
+  select ({651:673});
+  color atoms opaque [xffc000];
+  select ({0:812});
   Spacefill 0.0;
-  select BONDS ({0:776});
+  select BONDS ({0:840});
   wireframe 0.0;
 
 
-  select ({0:753});
+  select ({0:812});
   Cartoon on;
-
-  boundBox off;
-  font boundBox 14.0 SansSerif Plain;
-  boundBox off;
 
   frank on;
   font frank 16.0 SansSerif Plain;
@@ -261,18 +329,18 @@ function _setPerspectiveState() {
   set perspectiveDepth true;
   set visualRange 5.0;
   set cameraDepth 3.0;
-  boundbox corners {64.268005 -8.089001 16.454002} {113.164 31.895 65.161} # volume = 95224.99;
-  center {88.716 11.903 40.807503};
-   moveto -1.0 {0 0 1 0} 100.0 0.0 0.0 {88.716 11.903 40.807503} 30.822151 {0 0 0} 0 0 0 3.0 0.0 0.0;
+  boundbox corners {11.975998 -27.588001 -2.5219994} {47.529 22.342 43.328} # volume = 81391.15;
+  center {29.752499 -2.6230001 20.403};
+   moveto -1.0 {0 0 1 0} 100.0 0.0 0.0 {29.752499 -2.6230001 20.403} 31.166847 {0 0 0} 0 0 0 3.0 0.0 0.0;
   save orientation "default";
-  moveto 0.0 { 812 -583 -8 120.96} 100.0 0.0 0.0 {88.716 11.903 40.807503} 30.822151 {0 0 0} 0 0 0 3.0 0.0 0.0;;
+  moveto 0.0 { 453 -438 777 123.81} 100.0 0.0 0.0 {29.752499 -2.6230001 20.403} 31.166847 {0 0 0} 0 0 0 3.0 0.0 0.0;;
   slab 100;depth 0;
   set slabRange 0.0;
   set spinX 0; set spinY 30; set spinZ 0; set spinFps 30;  set navX 0; set navY 0; set navZ 0; set navFps 10;
 }
 
 function _setSelectionState() {
-  select ({0:753});
+  select ({0:812});
   set hideNotSelected false;
 }
 

@@ -18,6 +18,8 @@ Modeling 3D Structures of Proteins
     :numbered:
 
     sequence
+    swissmodel
+    phyre
 
 
 Source Code
