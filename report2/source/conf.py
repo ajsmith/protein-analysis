@@ -86,4 +86,4 @@ todo_include_todos = True
 #latex_theme = 'howto'
 
 # Enable numbered references
-numfig = True
+#numfig = True
