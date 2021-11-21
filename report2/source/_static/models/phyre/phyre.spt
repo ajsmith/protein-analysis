@@ -1,8 +1,8 @@
 # Jmol state version 14.29.54  2019-10-09 17:42;
 
 function _setWindowState() {
-# width 1002;
-# height 807;
+# width 714;
+# height 735;
   stateVersion = 1429054;
   background [x000000];
   axis1Color = "[xff0000]";
@@ -67,7 +67,7 @@ function _setParameterState() {
    set defaultdrawarrowscale 0.5;
    set defaultlabelpdb "%m%r";
    set defaultlabelxyz "%a";
-   set defaultlattice "{0.0 0.0 0.0}";
+   set defaultlattice "{0 0 0}";
    set defaultloadfilter "";
    set defaultloadscript "";
    set defaulttorsionlabel "%VALUE %UNITS";
@@ -95,7 +95,6 @@ function _setParameterState() {
   set cartoonfancy false;
   set cartoonladders false;
   set cartoonrockets false;
-  set cartoonsfancy false;
   set cartoonsteps false;
   set chaincasesensitive false;
   set dataseparator "~~~";
@@ -196,7 +195,7 @@ function _setParameterState() {
   set solventproberadius 1.2;
   set ssbondsbackbone false;
   set starwidth 0.05;
-  set stereodegrees -5.0;
+  set stereodegrees -5;
   set strandcountformeshribbon 7;
   set strandcountforstrands 5;
   set strutdefaultradius 0.3;
@@ -337,7 +336,7 @@ function _setPerspectiveState() {
   center {29.752499 -2.6230001 20.403};
    moveto -1.0 {0 0 1 0} 100.0 0.0 0.0 {29.752499 -2.6230001 20.403} 31.166847 {0 0 0} 0 0 0 3.0 0.0 0.0;
   save orientation "default";
-  moveto 0.0 { -525 -452 -721 98.41} 100.0 0.0 0.0 {29.752499 -2.6230001 20.403} 31.166847 {0 0 0} 0 0 0 3.0 0.0 0.0;;
+  moveto 0.0 { -601 -458 -654 93.29} 100.0 0.0 0.0 {29.752499 -2.6230001 20.403} 31.166847 {0 0 0} 0 0 0 3.0 0.0 0.0;;
   slab 100;depth 0;
   set slabRange 0.0;
   set spinX 0; set spinY 30; set spinZ 0; set spinFps 30;  set navX 0; set navY 0; set navZ 0; set navFps 10;
