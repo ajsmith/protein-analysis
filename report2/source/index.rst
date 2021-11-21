@@ -19,7 +19,9 @@ Modeling 3D Structures of Proteins
 
     sequence
     swissmodel
+    swissmodel-assessment
     phyre
+    phyre-assessment
 
 
 Source Code
