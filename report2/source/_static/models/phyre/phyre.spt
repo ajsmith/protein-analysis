@@ -1,8 +1,8 @@
 # Jmol state version 14.29.54  2019-10-09 17:42;
 
 function _setWindowState() {
-# width 714;
-# height 735;
+# width 1002;
+# height 807;
   stateVersion = 1429054;
   background [x000000];
   axis1Color = "[xff0000]";
@@ -255,14 +255,14 @@ function _setModelState() {
   color atoms opaque [x20ff00];
   select ({415:442});
   color atoms opaque [x40ff00];
-  select ({443:461});
-  color atoms opaque [x60ff00];
   select ({379:394});
   color atoms opaque [x00ff00];
-  select ({580:610});
-  color atoms opaque [xffff00];
+  select ({443:461});
+  color atoms opaque [x60ff00];
   select ({462:486});
   color atoms opaque [x80ff00];
+  select ({580:610});
+  color atoms opaque [xffff00];
   select ({767:789});
   color atoms opaque [xff2000];
   select ({296:319});
@@ -275,10 +275,10 @@ function _setModelState() {
   color atoms opaque [xffe000];
   select ({487:499});
   color atoms opaque [xa0ff00];
-  select ({500:517});
-  color atoms opaque [xc0ff00];
   select ({195:214});
   color atoms opaque [x00ffff];
+  select ({500:517});
+  color atoms opaque [xc0ff00];
   select ({518:546});
   color atoms opaque [xe0ff00];
   select ({24:43});
@@ -289,10 +289,10 @@ function _setModelState() {
   color atoms opaque [x00e0ff];
   select ({320:336});
   color atoms opaque [x00ff60];
-  select ({263:295});
-  color atoms opaque [x00ffa0];
   select ({117:143});
   color atoms opaque [x00a0ff];
+  select ({263:295});
+  color atoms opaque [x00ffa0];
   select ({704:721});
   color atoms opaque [xff8000];
   select ({746:766});
@@ -316,6 +316,10 @@ function _setModelState() {
   select ({0:812});
   Cartoon on;
 
+  boundBox off;
+  font boundBox 14.0 SansSerif Plain;
+  boundBox off;
+
   frank on;
   font frank 16.0 SansSerif Plain;
   select *;
@@ -333,7 +337,7 @@ function _setPerspectiveState() {
   center {29.752499 -2.6230001 20.403};
    moveto -1.0 {0 0 1 0} 100.0 0.0 0.0 {29.752499 -2.6230001 20.403} 31.166847 {0 0 0} 0 0 0 3.0 0.0 0.0;
   save orientation "default";
-  moveto 0.0 { 453 -438 777 123.81} 100.0 0.0 0.0 {29.752499 -2.6230001 20.403} 31.166847 {0 0 0} 0 0 0 3.0 0.0 0.0;;
+  moveto 0.0 { -525 -452 -721 98.41} 100.0 0.0 0.0 {29.752499 -2.6230001 20.403} 31.166847 {0 0 0} 0 0 0 3.0 0.0 0.0;;
   slab 100;depth 0;
   set slabRange 0.0;
   set spinX 0; set spinY 30; set spinZ 0; set spinFps 30;  set navX 0; set navY 0; set navZ 0; set navFps 10;

@@ -238,14 +238,18 @@ function _setModelState() {
   structure TURN ({774:789})    	# model=1.1 & (94 - 95);
 
   select ({0:812});
-  Spacefill 0.0;
   color atoms opaque fixedtemperature;
+  Spacefill 0.0;
   select BONDS ({0:840});
   wireframe 0.0;
 
 
   Backbone ({0:804});
   Backbone 0.3;
+
+  boundBox off;
+  font boundBox 14.0 SansSerif Plain;
+  boundBox off;
 
   frank on;
   font frank 16.0 SansSerif Plain;
@@ -264,7 +268,7 @@ function _setPerspectiveState() {
   center {29.752499 -2.6230001 20.403};
    moveto -1.0 {0 0 1 0} 100.0 0.0 0.0 {29.752499 -2.6230001 20.403} 31.166847 {0 0 0} 0 0 0 3.0 0.0 0.0;
   save orientation "default";
-  moveto 0.0 { 453 -438 777 123.81} 100.0 0.0 0.0 {29.752499 -2.6230001 20.403} 31.166847 {0 0 0} 0 0 0 3.0 0.0 0.0;;
+  moveto 0.0 { -547 -480 -686 94.43} 100.0 0.0 0.0 {29.752499 -2.6230001 20.403} 31.166847 {0 0 0} 0 0 0 3.0 0.0 0.0;;
   slab 100;depth 0;
   set slabRange 0.0;
   set spinX 0; set spinY 30; set spinZ 0; set spinFps 30;  set navX 0; set navY 0; set navZ 0; set navFps 10;
