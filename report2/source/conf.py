@@ -84,3 +84,6 @@ todo_include_todos = True
 
 #latex_toplevel_sectioning = None
 #latex_theme = 'howto'
+
+# Enable numbered references
+numfig = True
