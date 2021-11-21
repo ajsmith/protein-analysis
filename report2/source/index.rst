@@ -19,9 +19,9 @@ Modeling 3D Structures of Proteins
 
     sequence
     swissmodel
-    swissmodel-assessment
     phyre
-    phyre-assessment
+    procheck-swissmodel
+    procheck-phyre
 
 
 Source Code
