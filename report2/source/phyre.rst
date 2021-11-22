@@ -57,6 +57,5 @@ Methods
 =======
 
 Using Phyre2, I submitted the B7Z7N4 sequence in FASTA format and
-selected "normal" modeling mode. It then emailed me the results some
-time later, after which I viewed them and inspected the model using
-the Phyre2 Investigator.
+selected "normal" modeling mode. After which I viewed the results and
+inspected the model using the Phyre2 Investigator.
