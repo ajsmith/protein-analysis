@@ -13,19 +13,19 @@ https://github.com/ajsmith/protein-analysis
 References
 ==========
 
-.. [UNIPROT] UniProt <https://www.uniprot.org/>
+.. [UNIPROT] <https://www.uniprot.org/>
 
-.. [RCSB] RCSB-PDB <https://www.rcsb.org/>
+.. [RCSB-PDB] <https://www.rcsb.org/>
 
-.. [SWISSMODEL] Swiss-Model <https://swissmodel.expasy.org/>
+.. [SWISS-MODEL] <https://swissmodel.expasy.org/>
 
-.. [PHYRE2] Phyre2 <http://www.sbg.bio.ic.ac.uk/phyre2/>
+.. [PHYRE2] <http://www.sbg.bio.ic.ac.uk/phyre2/>
 
-.. [MISSENSE3D] Missense3D <http://missense3d.bc.ic.ac.uk/>
+.. [MISSENSE3D] <http://missense3d.bc.ic.ac.uk/>
 
-.. [JMOL] Jmol <http://jmol.sourceforge.net/>
+.. [JMOL] <http://jmol.sourceforge.net/>
 
-.. [FATCAT] FATCAT <https://fatcat.godziklab.org/>
+.. [FATCAT] <https://fatcat.godziklab.org/>
 
 .. [GIOIA2005] Gioia U, Laneve P, Dlakic M, Arceci M, Bozzoni I,
     Caffarelli E. Functional characterization of XendoU, the
