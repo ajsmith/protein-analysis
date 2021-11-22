@@ -3,12 +3,8 @@ Fold Recognition using Phyre2
 =============================
 
 
-Results
-=======
-
-
 Predicted Structure
--------------------
+===================
 
 
 ..  raw:: html
@@ -26,16 +22,41 @@ Predicted Structure
 
 
 Model Quality
--------------
+=============
 
-.. image:: _static/images/phyre/ramachandran.png
+Phyre2 Investigator tool was used to assess the quality of the
+model. Phyre2 Investigator provided a number of quality assessment
+methods, including ProQ2, Clashes, Rotamers, Ramachandran analysis,
+Alignment confidence, and Disorder.
 
-.. image:: _static/images/phyre/local-quality-estimate.png
+ProQ2 largely reported good quality around the predicted alpha-helices
+and nearby regions. The long coil at the C-terminal end was marked as
+bad, however.
 
-.. image:: _static/images/phyre/alignment.png
+Clashes were mostly good, with a few exceptions mostly in the coils
+and loops.
+
+Rotamers were all good.
+
+Ramachandran analysis showed the model to be mostly good with a few
+bad regions.
+
+The alignment confidence showed good confidence for the first half to
+two-thirds of the sequence, after which the confidence drops off dramatically.
+
+The disorder analysis seemed to be mostly consistent with the
+predicted structure. The predicted alpha-helixes were marked has
+having more order though with a few exceptions. The loops and coils
+were marked as being more flexible, though not extremely disordered.
+
+PROCHECK was also used to assess model quality. The results can be
+found on the :doc:`procheck-phyre` page.
 
 
 Methods
 =======
 
-TODO
+Using Phyre2, I submitted the B7Z7N4 sequence in FASTA format and
+selected "normal" modeling mode. It then emailed me the results some
+time later, after which I viewed them and inspected the model using
+the Phyre2 Investigator.

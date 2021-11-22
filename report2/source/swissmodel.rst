@@ -50,6 +50,10 @@ is known to have such structure.
 .. image:: _static/images/swiss-model/alignment.png
 
 
+PROCHECK was also used to assess model quality. The results can be
+found on the :doc:`procheck-swissmodel` page.
+
+
 Methods
 =======
 
