@@ -28,9 +28,6 @@ dist/
 # Virtual Environments
 venv/
 
-# Image files
-*.png
-
 # Document artifacts
 *.pdf
 
