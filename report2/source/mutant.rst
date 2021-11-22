@@ -55,43 +55,28 @@ Structure Comparison
       ></iframe>
 
 
-Methods
-=======
+Point Mutations
+===============
 
-Missense3D
+I used Missense3D to explore how specific point mutations would affect
+the structure. I used the structure predicted by Swiss-Model for
+this. I applied each point mutation listed in the table above. I
+applied each mutation by itself to the same starting PDB file (rather
+than accumulate mutations on incrementally changed models).
 
- 1. Position on 3D structure
+The only point mutation which had any impact to the structure was the
+substitution of serine to alanine at position 46. The other mutations
+had no effect on the structure.
 
- 2. Uploaded swiss-model.pdb
+The change to alanine at position 46 caused buried hydrogen bond
+breakage involving 3 hydrogen bonds. The former serine was a donor of
+two hydrogens to a tyrosine at position 37 and also a histidine at
+position 51. This serine was also an acceptor of a hydrogen from the
+histidine at 51. The new alanine does not form any hydrogen bonds.
 
- 4. Point mutations:
-
-    - > 46 ser -> ala
-    - > 50 glu -> gln
-    - > 51 his -> ala
-    - > 56 glu -> gln
-    - > 66 his -> ala
-
-
-Notes
-=====
-
-
-Hydrogen bond from PDB residue 46
-
-Wild type
----------
-
-Donor 	Acceptor 	Distance (Å) 	Type
-A0046-SER OG 	A0037-TYR O 	3.52 	SM
-A0046-SER OG 	A0051-HIS NE2 	2.84 	SS
-A0051-HIS NE2 	A0046-SER OG 	2.84 	SS
-
-Mutant
-------
-
-Donor 	Acceptor 	Distance (Å) 	Type
-
-No hydrogen bond found
-
-M: main chain, S: side chain
+Interestingly, the histidine at 51 corresponds to one of the active
+sites in the pairwise sequence alignment with the homolog
+sequence. Given that 2 hydrogen bonds to which this residue
+participates with are broken by this mutation, it's very likely this
+mutation will both destabilize the structure as well as disable the
+active site.
