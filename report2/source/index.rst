@@ -24,18 +24,3 @@ Modeling 3D Structures of Proteins
     procheck-phyre
     biological-importance
     mutant
-
-
-Source Code
-===========
-
-All source code and documentation can be found here:
-https://github.com/ajsmith/protein-analysis
-
-
-References
-==========
-
- 1. UniProt <https://www.uniprot.org/>
-
- 2. RCSB-PDB <https://www.rcsb.org/>
