@@ -34,10 +34,11 @@ interesting. BLAST was run using the PDB database, to find results
 with known structures.
 
 Using these methods, I arrived at B7Z7N4_, a Poly(U)-specific
-endoribonuclease in humans which has no known structure. Its closest
-sequence homolog is Q8JFY9_ of Xenopus laevis, which possesses a known
-3D structure in PDB (2C1W_). BLAST alignment reported these sequences
-share 42.7% sequence identity.
+endoribonuclease in humans which has no known structure. It belongs to
+the ENDOU_ protein family.  Its closest sequence homolog is Q8JFY9_ of
+Xenopus laevis, which possesses a known 3D structure in PDB
+(2C1W_). BLAST alignment reported these sequences share 42.7% sequence
+identity.
 
 
 .. _B7Z7N4: https://www.uniprot.org/uniprot/B7Z7N4
@@ -45,3 +46,5 @@ share 42.7% sequence identity.
 .. _Q8JFY9: https://www.uniprot.org/uniprot/Q8JFY9
 
 .. _2C1W: https://www.rcsb.org/structure/2C1W
+
+.. _ENDOU: https://pfam.xfam.org/family/PF09412
