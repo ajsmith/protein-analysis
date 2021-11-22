@@ -3,8 +3,56 @@ Mutated Sequence
 ================
 
 
-.. image:: _static/images/mutant/mutations.svg
+The following mutations were chosen due to their biological
+significance in the homolog protein found in Xenopus laevis. The
+following sites have been shown to be essential for catalytic
+activity, specifically RNA cleavage [GIOIA2005]_.
 
+.. list-table:: Mutations
+
+   * - B7Z7N4 Position
+     - Wild Type Residue
+     - Mutant Residue
+     - Homolog Residue
+   * - 46
+     - Ser
+     - Ala
+     - Ser
+   * - 50
+     - Glu
+     - Gln
+     - Glu
+   * - 51
+     - His
+     - Ala
+     - His
+   * - 56
+     - Glu
+     - Gln
+     - Glu
+   * - 66
+     - His
+     - Ala
+     - His
+
+..  figure:: _static/images/mutant/mutations.svg
+
+    Sequence alignment and highlighted point mutation positions.
+
+
+Structure Comparison
+====================
+
+..  raw:: html
+
+    <iframe
+      id="mutant-jsmol-frame"
+      data-external="1"
+      src="_static/models/mutant/mutant.html"
+      height="600"
+      width="100%"
+      style="border: 0"
+      ></iframe>
 
 
 Methods
